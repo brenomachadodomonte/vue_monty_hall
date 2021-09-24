@@ -1,24 +1,22 @@
-# montyhall
+# Vue Monty Hall 
+Monty Hall Problem made with Vue
 
-## Project setup
-```
-yarn install
-```
+## Screenshots
+![Login](demo/demo.gif)
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## Dependencies
+- VueJS
 
-### Compiles and minifies for production
-```
-yarn build
-```
+## Dev dependencies
+To run on dev environment run:
 
-### Lints and fixes files
+```sh
+npm install @vue/cli
+npm install
+npm run serve
 ```
-yarn lint
-```
+> The Monty Hall Problem will run on  http://localhost:8080
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## See more
+For more information about me or other projects: [brenomachado.dev](https://brenomachado.dev)
