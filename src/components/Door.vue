@@ -1,10 +1,11 @@
 <template>
   <div class="door-area">
     <div class="door-frame">
-      <Gift />
+      <Gift v-if="open && hasGift"/>
     </div>
     <div class="door">
       <div class="number">{{ number }}</div>
+      <div class="knob"></div>
     </div>
   </div>
 </template>
