@@ -72,6 +72,13 @@ body {
 .form, .form button, .form input {
   margin-bottom: 10px;
   font-size: 2rem;
+}
 
+.doors {
+  align-self: stretch;
+  display: flex;
+  justify-content: space-around;
+
+  flex-wrap: wrap;
 }
 </style>
