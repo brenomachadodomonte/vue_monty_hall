@@ -60,4 +60,18 @@ body {
   padding: 20px;
   margin-bottom: 60px;
 }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.form, .form button, .form input {
+  margin-bottom: 10px;
+  font-size: 2rem;
+
+}
 </style>
