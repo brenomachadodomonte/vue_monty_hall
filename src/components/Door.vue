@@ -1,9 +1,31 @@
 <template>
-  <div class="door"></div>
+  <div class="door-area">
+    <div class="door-frame">
+      <Gift />
+    </div>
+    <div class="door">
+      <div class="number">{{ number }}</div>
+    </div>
+  </div>
 </template>
 
 <script>
+import Gift from './Gift';
 
+export default {
+  name: 'Door',
+  components: { Gift },
+  props: {
+    number: {},
+    hasGift: { type: Boolean }
+  },
+  data: function(){
+    return {
+      open: false,
+      selected: false
+    }
+  }
+}
 </script>
 
 <style>
