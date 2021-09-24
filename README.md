@@ -11,7 +11,7 @@ Monty Hall Problem made with Vue
 To run on dev environment run:
 
 ```sh
-npm install @vue/cli
+npm install -g @vue/cli
 npm install
 npm run serve
 ```
