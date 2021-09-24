@@ -10,7 +10,7 @@
         <label for="selectedPort">Which is the prized door?</label>
         <input type="text" id="selectedPort" size="3" v-model.number="selectedPort">
       </div>
-      <button v-if="!started" @click="started = true">Init</button>
+      <button v-if="!started" @click="started = true">Start</button>
       <button v-if="started" @click="started = false">Restart</button>
     </div>
     <div class="doors" v-if="started">
